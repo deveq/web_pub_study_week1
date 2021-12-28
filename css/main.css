@@ -1,0 +1,93 @@
+body, * {
+    margin : 0;
+    padding : 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    width : 100vw;
+    height : 100vh;
+}
+
+.soft_blue {
+    color : hsl(215, 51%, 70%);
+}
+
+.cyan {
+    color : hsl(178, 100%, 50%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+section.wrap {
+    background-color: hsl(217, 54%, 11%);
+    width : 100%;
+    height : 100%;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+section.wrap > h1 {
+    font-size : 0;
+}
+
+.nft_container {
+    background-color : hsl(216, 50%, 16%);
+    padding : 20px;
+    border-radius : 15px;
+}
+
+.nft_context .nft_title {
+    margin-bottom : 15px;
+}
+
+.main_img {
+    background-image: url("../images/image-equilibrium.jpg");
+    width : 100%;
+    padding-bottom : 100%;
+    background-size : cover;
+    background-position : center;
+    border-radius : 10px;
+    margin-bottom : 15px;
+    cursor: pointer;
+}
+
+.main_img:hover::before {
+    content : "";
+    background-color :hsl(178, 100%, 50%);
+}
+
+.nft_container > img {
+    width : 350px;
+    border-radius : 10px;
+    margin-bottom : 20px;
+}
+
+.nft_description {
+    font-size : 18px;
+}
+
+.nft_meta_data {
+    display : flex;
+    justify-content: space-between;
+    margin : 15px 0;
+    padding-bottom : 15px;
+    border-bottom : 1px solid hsl(215, 32%, 27%);
+}
+
+.nft_creator {
+    display : flex;
+    align-items: center;
+}
+
+.nft_creator > img {
+    width : 50px;
+    height : 50px;
+    border-radius : 50%;
+    background-color : #fff;
+}
+
+.nft_creator > span {
+    margin-left : 20px;
+}
